@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "name": "All Products Menu",
+    "description": "       As A User I should be able to View and Navigate\r\n       to each Products category within the All Product Menu",
+    "id": "all-products-menu",
+    "keyword": "Feature",
+    "uri": "AllProductMenu.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 7,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 9,
+        "name": "User wanting to choose product via Choose your own",
+        "description": "",
+        "id": "choose-your-connector;user-wanting-to-choose-product-via-choose-your-own",
+        "after": [
+          {
+            "result": {
+              "duration": 82965,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15828522444,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Navigated to Cable and Wire Page on \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 39
+                }
+              ],
+              "location": "StepsDefinition.i_Navigated_to_Cable_and_Wire_Page_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4683299399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Choose your own Connector link",
+            "match": {
+              "location": "StepsDefinition.i_click_on_Choose_your_own_Connector_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72217012,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should Navigate to IndustrialPower Connector Page",
+            "match": {
+              "location": "StepsDefinition.i_should_Navigate_to_IndustrialPower_Connector_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@CableAndWireProduct"
+          }
+        ]
+      }
+    ],
+    "name": "Choose your Connector",
+    "description": "       User should be able to view and click on the links\r\n       of each product on Cable and Wire page i order\r\n       to add to basket, check prices.",
+    "id": "choose-your-connector",
+    "keyword": "Feature",
+    "uri": "CableAndWire.feature"
+  },
+  {
+    "line": 1,
+    "name": "SearchFilter",
+    "description": "     User should be able to search for a product \r\n     Quickly by Product number and add Quanty amount",
+    "id": "searchfilter",
+    "keyword": "Feature",
+    "uri": "SearchFliter.feature"
+  },
+  {
+    "line": 1,
+    "name": "SemiConductor Products",
+    "description": "        User should be able to View and order any semiconductor\n        products on semiConductor Page",
+    "id": "semiconductor-products",
+    "keyword": "Feature",
+    "uri": "SemiConductor.feature"
+  }
+]
