@@ -3,7 +3,7 @@ Feature: All Products Menu
          to each Products category within the All Product Menu
          
          
-@ignore
+#@ignore
 @AllProductMenu  
 Scenario: Navigating to Cable wire page
 Given I Navigate to the Home Page on "browser"  
@@ -11,7 +11,7 @@ When I click on all Product menu
  And I click on Cable Wire link
 Then I Should see Cable wire Page 
   
-@ignore
+#@ignore
 @AllProductMenu  
 Scenario: Navigating to SemiConductor page
 Given I Navigate to the Home Page on "browser"  

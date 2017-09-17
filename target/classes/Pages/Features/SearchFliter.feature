@@ -2,7 +2,7 @@ Feature: SearchFilter
        User should be able to search for a product 
        Quickly by Product number and add Quanty amount 
        
-@ignore     
+#@ignore     
 @Search    
  Scenario: Quick Search of Product with valid Stock Number
  Given I Navigate to the Home Page on "browser"  
@@ -10,7 +10,7 @@ Feature: SearchFilter
   And I enter Quantity Amaoun as "2"
   And I click on search AddToBasket button Home page
   Then I should be Redirected to Checkout Page
-@ignore 
+#@ignore 
 @Search    
  Scenario: Quick Search of Product with Invalid Stock Number
  Given I Navigate to the Home Page on "browser"  

@@ -1,6 +1,182 @@
 [
   {
     "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 6,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 8,
+        "name": "Navigating to Cable wire page",
+        "description": "",
+        "id": "all-products-menu;navigating-to-cable-wire-page",
+        "after": [
+          {
+            "result": {
+              "duration": 78689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14263946961,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Navigate to the Home Page on \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272159193,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on all Product menu",
+            "match": {
+              "location": "StepsDefinition.i_click_on_all_Product_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2845714547,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Cable Wire link",
+            "match": {
+              "location": "StepsDefinition.i_click_on_Cable_Wire_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150666220,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Should see Cable wire Page",
+            "match": {
+              "location": "StepsDefinition.i_Should_see_Cable_wire_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@AllProductMenu"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 14,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 16,
+        "name": "Navigating to SemiConductor page",
+        "description": "",
+        "id": "all-products-menu;navigating-to-semiconductor-page",
+        "after": [
+          {
+            "result": {
+              "duration": 44048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1409640424,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Navigate to the Home Page on \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 371500992,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on all Product menu",
+            "match": {
+              "location": "StepsDefinition.i_click_on_all_Product_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100384418,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on SemiConductor",
+            "match": {
+              "location": "StepsDefinition.i_click_on_SemiConductor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22368423,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Should see be displayed with SemiConductor Page",
+            "match": {
+              "location": "StepsDefinition.i_Should_see_be_displayed_with_SemiConductor_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@AllProductMenu"
+          }
+        ]
+      }
+    ],
     "name": "All Products Menu",
     "description": "       As A User I should be able to View and Navigate\r\n       to each Products category within the All Product Menu",
     "id": "all-products-menu",
@@ -24,7 +200,7 @@
         "after": [
           {
             "result": {
-              "duration": 82965,
+              "duration": 32929,
               "status": "passed"
             },
             "match": {
@@ -37,7 +213,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15828522444,
+              "duration": 1633961856,
               "status": "passed"
             },
             "line": 10,
@@ -55,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 4683299399,
+              "duration": 2970037732,
               "status": "passed"
             },
             "line": 11,
@@ -67,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 72217012,
+              "duration": 43399573,
               "status": "passed"
             },
             "line": 12,
@@ -84,6 +260,75 @@
             "name": "@CableAndWireProduct"
           }
         ]
+      },
+      {
+        "comments": [
+          {
+            "line": 14,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 16,
+        "name": "Adding SemiConnectorProduct to Basket",
+        "description": "",
+        "id": "choose-your-connector;adding-semiconnectorproduct-to-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 30363,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2013346642,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on Power Industrial Connector Page",
+            "match": {
+              "location": "StepsDefinition.i_am_on_Power_Industrial_Connector_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196224161,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Add button on PIC Product table",
+            "match": {
+              "location": "StepsDefinition.i_click_on_Add_button_on_PIC_Product_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125608284,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my Product added",
+            "match": {
+              "location": "StepsDefinition.i_should_see_my_Product_added()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@CableAndWireProduct"
+          }
+        ]
       }
     ],
     "name": "Choose your Connector",
@@ -94,6 +339,242 @@
   },
   {
     "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 7,
+        "name": "Quick Search of Product with valid Stock Number",
+        "description": "",
+        "id": "searchfilter;quick-search-of-product-with-valid-stock-number",
+        "after": [
+          {
+            "result": {
+              "duration": 35496,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1244992496,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Navigate to the Home Page on \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307317881,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter Product Number as \"136-7817\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "136-7817",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsDefinition.i_enter_Product_Number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149080908,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Quantity Amaoun as \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "StepsDefinition.i_enter_Quantity_Amaoun_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4252747140,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on search AddToBasket button Home page",
+            "match": {
+              "location": "StepsDefinition.i_click_on_search_AddToBasket_button_Home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135410960,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be Redirected to Checkout Page",
+            "match": {
+              "location": "StepsDefinition.i_should_be_Redirected_to_Checkout_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 13,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 15,
+        "name": "Quick Search of Product with Invalid Stock Number",
+        "description": "",
+        "id": "searchfilter;quick-search-of-product-with-invalid-stock-number",
+        "after": [
+          {
+            "result": {
+              "duration": 37634,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1727658199,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Navigate to the Home Page on \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425409724,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter Product Number as \"136-7817153\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "136-7817153",
+                  "offset": 27
+                }
+              ],
+              "location": "StepsDefinition.i_enter_Product_Number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99412361,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter Quantity Amaoun as \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "StepsDefinition.i_enter_Quantity_Amaoun_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3229285207,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on search AddToBasket button Home page",
+            "match": {
+              "location": "StepsDefinition.i_click_on_search_AddToBasket_button_Home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62879195,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be see errorMessage displayed on Checkout Page",
+            "match": {
+              "location": "StepsDefinition.i_should_be_see_errorMessage_displayed_on_Checkout_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44029507,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see CheckOut button Disabled on CheckOut Page",
+            "match": {
+              "location": "StepsDefinition.i_should_see_CheckOut_Button_Disabled_on_CheckOut_Page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
     "name": "SearchFilter",
     "description": "     User should be able to search for a product \r\n     Quickly by Product number and add Quanty amount",
     "id": "searchfilter",
@@ -102,6 +583,107 @@
   },
   {
     "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#@ignore"
+          }
+        ],
+        "line": 7,
+        "name": "User navigating to the home page",
+        "description": "",
+        "id": "semiconductor-products;user-navigating-to-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 30791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2555842368,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Navigate to the semiConductor Page on \"browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "browser",
+                  "offset": 41
+                }
+              ],
+              "location": "StepsDefinition.i_Navigate_to_the_semiConductor_Page_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5487380156,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on order your here link",
+            "match": {
+              "location": "StepsDefinition.i_click_on_order_your_here_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132862145,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Add to basket button",
+            "match": {
+              "location": "StepsDefinition.i_click_Add_to_basket_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2964403823,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click view basket button",
+            "match": {
+              "location": "StepsDefinition.i_click_view_basket_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141556342,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be Redirected to Checkout Page",
+            "match": {
+              "location": "StepsDefinition.i_should_be_Redirected_to_Checkout_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Semiconductor"
+          }
+        ]
+      }
+    ],
     "name": "SemiConductor Products",
     "description": "        User should be able to View and order any semiconductor\n        products on semiConductor Page",
     "id": "semiconductor-products",

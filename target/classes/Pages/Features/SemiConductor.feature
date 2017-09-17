@@ -2,7 +2,7 @@ Feature: SemiConductor Products
           User should be able to View and order any semiconductor
           products on semiConductor Page
 
-@ignore
+#@ignore
 @Semiconductor       
  Scenario: User navigating to the home page
     Given I Navigate to the semiConductor Page on "browser"

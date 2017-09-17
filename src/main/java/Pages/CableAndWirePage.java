@@ -1,6 +1,11 @@
 package Pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CableAndWirePage extends BasePage {
 
@@ -19,6 +24,10 @@ public class CableAndWirePage extends BasePage {
 	 }
 	 /* Click on Choose your Connection link on the page */
 	 public void clickChooseYourConnectionlink(){
-		 click("cableAndwire_ChooseYourConnection_Selector");
+//		 WebDriverWait wait= new WebDriverWait(driver,20);
+//		 wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("cableAndwire_ChooseYourConnection_Selector")));
+//		 click("cableAndwire_ChooseYourConnection_Selector");
+		 WebElement ChooseYourConnector = driver.findElement(By.cssSelector(OR.getProperty("cableAndwire_ChooseYourConnection_Selector")));
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", ChooseYourConnector);
 	 }
 }

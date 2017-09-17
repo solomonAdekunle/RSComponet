@@ -11,7 +11,7 @@ Given I Navigated to Cable and Wire Page on "browser"
 When I click on Choose your own Connector link
 Then I should Navigate to IndustrialPower Connector Page
 
-@ignore
+#@ignore
 @CableAndWireProduct
 Scenario: Adding SemiConnectorProduct to Basket
 Given I am on Power Industrial Connector Page
