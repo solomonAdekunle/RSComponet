@@ -1,5 +1,7 @@
 package Pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -24,12 +26,16 @@ public class SemiConductorPage extends BasePage {
 
 	/* Click on AddTo Baseket Button */
 	public void clickAddToBasketButton() {
-		click("AddToBasket_Selector");
+		WebElement AddToBasket=driver.findElement(By.cssSelector(OR.getProperty("AddToBasket_Selector")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", AddToBasket);
+		
 	}
 
 	/* Click on View Basket Button */
 	public void clickViewBasketButton() {
-		click("viewBasket_Selector");
+		WebElement ViewBasketButton=driver.findElement(By.cssSelector(OR.getProperty("viewBasket_Selector")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", ViewBasketButton);
+
 	}
 	
 	 public boolean isSemiconductorTitlePagePresent(){

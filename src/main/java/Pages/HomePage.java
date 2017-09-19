@@ -3,8 +3,10 @@ package Pages;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -46,7 +48,8 @@ public class HomePage extends BasePage {
 	}
 	/* Click on Search Add ToBasket button */
 	public void clickSearchAddToBasketRedButton(){
-		click("hp_SearchAddToBasket_Selector");
+		WebElement searchAddButton=driver.findElement(By.cssSelector(OR.getProperty("hp_SearchAddToBasket_Selector")));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", searchAddButton);
 	}
 	
 	/* enter product Stock Number in the Search Text box */	
