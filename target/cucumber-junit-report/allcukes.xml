@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="70.309633">
+<testcase classname="All Products Menu" name="Navigating to Cable wire page" time="19.733504">
+<system-out><![CDATA[Given I Navigate to the Home Page on "browser"..............................passed
+When I click on all Product menu............................................passed
+And I click on Cable Wire link..............................................passed
+Then I Should see Cable wire Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="All Products Menu" name="Navigating to SemiConductor page" time="4.689318">
+<system-out><![CDATA[Given I Navigate to the Home Page on "browser"..............................passed
+When I click on all Product menu............................................passed
+And I click on SemiConductor................................................passed
+Then I Should see be displayed with SemiConductor Page......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Choose your Connector" name="User wanting to choose product via Choose your own" time="7.068212">
+<system-out><![CDATA[Given I Navigated to Cable and Wire Page on "browser".......................passed
+When I click on Choose your own Connector link..............................passed
+Then I should Navigate to IndustrialPower Connector Page....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Choose your Connector" name="Adding SemiConnectorProduct to Basket" time="6.153404">
+<failure message="java.lang.AssertionError: Element not found - IndustrialPowerConnectorPd1_AddButton_Selectorunknown error: Element &lt;button class=&quot;btn btn-danger addToBasketBtn&quot; id=&quot;atbBtn-1&quot; rs-add-to-basket=&quot;&quot; add-to-basket-function=&quot;facetFilters.addToBasket(rsStockNumber, quantity, buttonId)&quot; added-to-basket-trigger=&quot;facetFilters.addedToBasketTrigger&quot; data-qtyfieldid=&quot;atbQty-1&quot; data-rsstocknumber=&quot;724-9088&quot;&gt;...&lt;/button&gt; is not clickable at point (724, 602). Other element would receive the click: &lt;div class=&quot;acsModalBackdrop acsAbandonButton&quot; data-isbackdrop=&quot;true&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 58 milliseconds&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'solomon', ip: '192.168.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Solomon\AppData\Local\Temp\scoped_dir8628_15220}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: fbf71a43a7f6e12837aa81d73791da58&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at Pages.BasePage.click(BasePage.java:38)&#13;&#10;&#9;at Pages.IndustriaPowerConnectorPage.clickRedAddButtonPICProductor1(IndustriaPowerConnectorPage.java:32)&#13;&#10;&#9;at com.StepDef.StepsDefinition.i_click_on_Add_button_on_PIC_Product_table(StepsDefinition.java:117)&#13;&#10;&#9;at ✽.When I click on Add button on PIC Product table(main/resources/Pages/Features/CableAndWire.feature:18)&#13;&#10;"><![CDATA[Given I am on Power Industrial Connector Page...............................passed
+When I click on Add button on PIC Product table.............................failed
+Then I should see my Product added..........................................skipped
+
+StackTrace:
+java.lang.AssertionError: Element not found - IndustrialPowerConnectorPd1_AddButton_Selectorunknown error: Element <button class="btn btn-danger addToBasketBtn" id="atbBtn-1" rs-add-to-basket="" add-to-basket-function="facetFilters.addToBasket(rsStockNumber, quantity, buttonId)" added-to-basket-trigger="facetFilters.addedToBasketTrigger" data-qtyfieldid="atbQty-1" data-rsstocknumber="724-9088">...</button> is not clickable at point (724, 602). Other element would receive the click: <div class="acsModalBackdrop acsAbandonButton" data-isbackdrop="true">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 58 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'solomon', ip: '192.168.0.9', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Solomon\AppData\Local\Temp\scoped_dir8628_15220}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fbf71a43a7f6e12837aa81d73791da58
+	at org.junit.Assert.fail(Assert.java:88)
+	at Pages.BasePage.click(BasePage.java:38)
+	at Pages.IndustriaPowerConnectorPage.clickRedAddButtonPICProductor1(IndustriaPowerConnectorPage.java:32)
+	at com.StepDef.StepsDefinition.i_click_on_Add_button_on_PIC_Product_table(StepsDefinition.java:117)
+	at ✽.When I click on Add button on PIC Product table(main/resources/Pages/Features/CableAndWire.feature:18)
+]]></failure>
+</testcase>
+<testcase classname="SearchFilter" name="Quick Search of Product with valid Stock Number" time="14.840539">
+<system-out><![CDATA[Given I Navigate to the Home Page on "browser"..............................passed
+When I enter Product Number as "136-7817"...................................passed
+And I enter Quantity Amaoun as "2"..........................................passed
+And I click on search AddToBasket button Home page..........................passed
+Then I should be Redirected to Checkout Page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="SearchFilter" name="Quick Search of Product with Invalid Stock Number" time="5.432694">
+<system-out><![CDATA[Given I Navigate to the Home Page on "browser"..............................passed
+When I enter Product Number as "136-7817153"................................passed
+And I enter Quantity Amaoun as "2"..........................................passed
+And I click on search AddToBasket button Home page..........................passed
+Then I should be see errorMessage displayed on Checkout Page................passed
+And I should see CheckOut button Disabled on CheckOut Page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="SemiConductor Products" name="User navigating to the home page" time="12.391962">
+<system-out><![CDATA[Given I Navigate to the semiConductor Page on "browser".....................passed
+When I click on order your here link........................................passed
+And I click Add to basket button............................................passed
+And I click view basket button..............................................passed
+Then I should be Redirected to Checkout Page................................passed
+]]></system-out>
+</testcase>
+</testsuite>

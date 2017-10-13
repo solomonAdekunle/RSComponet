@@ -13,23 +13,12 @@
         "name": "Navigating to Cable wire page",
         "description": "",
         "id": "all-products-menu;navigating-to-cable-wire-page",
-        "after": [
-          {
-            "result": {
-              "duration": 78689,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepsDefinition.afterScenario()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 14263946961,
+              "duration": 18980298870,
               "status": "passed"
             },
             "line": 9,
@@ -47,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 272159193,
+              "duration": 172093230,
               "status": "passed"
             },
             "line": 10,
@@ -59,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 2845714547,
+              "duration": 4469858784,
               "status": "passed"
             },
             "line": 11,
@@ -71,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 150666220,
+              "duration": 69114326,
               "status": "passed"
             },
             "line": 12,
@@ -100,23 +89,12 @@
         "name": "Navigating to SemiConductor page",
         "description": "",
         "id": "all-products-menu;navigating-to-semiconductor-page",
-        "after": [
-          {
-            "result": {
-              "duration": 44048,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepsDefinition.afterScenario()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1409640424,
+              "duration": 1691085098,
               "status": "passed"
             },
             "line": 17,
@@ -134,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 371500992,
+              "duration": 253477356,
               "status": "passed"
             },
             "line": 18,
@@ -146,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 3100384418,
+              "duration": 3023869039,
               "status": "passed"
             },
             "line": 19,
@@ -158,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 22368423,
+              "duration": 29442644,
               "status": "passed"
             },
             "line": 20,
@@ -197,23 +175,12 @@
         "name": "User wanting to choose product via Choose your own",
         "description": "",
         "id": "choose-your-connector;user-wanting-to-choose-product-via-choose-your-own",
-        "after": [
-          {
-            "result": {
-              "duration": 32929,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepsDefinition.afterScenario()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1633961856,
+              "duration": 2439948289,
               "status": "passed"
             },
             "line": 10,
@@ -231,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 2970037732,
+              "duration": 4272068298,
               "status": "passed"
             },
             "line": 11,
@@ -243,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 43399573,
+              "duration": 53493008,
               "status": "passed"
             },
             "line": 12,
@@ -272,23 +239,12 @@
         "name": "Adding SemiConnectorProduct to Basket",
         "description": "",
         "id": "choose-your-connector;adding-semiconnectorproduct-to-basket",
-        "after": [
-          {
-            "result": {
-              "duration": 30363,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepsDefinition.afterScenario()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2013346642,
+              "duration": 2041751360,
               "status": "passed"
             },
             "line": 17,
@@ -300,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 196224161,
+              "duration": 186271218,
               "status": "passed"
             },
             "line": 18,
@@ -312,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 125608284,
+              "duration": 141886370,
               "status": "passed"
             },
             "line": 19,
@@ -351,23 +307,12 @@
         "name": "Quick Search of Product with valid Stock Number",
         "description": "",
         "id": "searchfilter;quick-search-of-product-with-valid-stock-number",
-        "after": [
-          {
-            "result": {
-              "duration": 35496,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepsDefinition.afterScenario()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1244992496,
+              "duration": 1822084270,
               "status": "passed"
             },
             "line": 8,
@@ -385,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 307317881,
+              "duration": 298814588,
               "status": "passed"
             },
             "line": 9,
@@ -403,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 149080908,
+              "duration": 100146984,
               "status": "passed"
             },
             "line": 10,
@@ -421,7 +366,7 @@
           },
           {
             "result": {
-              "duration": 4252747140,
+              "duration": 8615943426,
               "status": "passed"
             },
             "line": 11,
@@ -433,7 +378,7 @@
           },
           {
             "result": {
-              "duration": 135410960,
+              "duration": 108195846,
               "status": "passed"
             },
             "line": 12,
@@ -462,23 +407,12 @@
         "name": "Quick Search of Product with Invalid Stock Number",
         "description": "",
         "id": "searchfilter;quick-search-of-product-with-invalid-stock-number",
-        "after": [
-          {
-            "result": {
-              "duration": 37634,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepsDefinition.afterScenario()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1727658199,
+              "duration": 1620520600,
               "status": "passed"
             },
             "line": 16,
@@ -496,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 425409724,
+              "duration": 455049153,
               "status": "passed"
             },
             "line": 17,
@@ -514,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 99412361,
+              "duration": 136441489,
               "status": "passed"
             },
             "line": 18,
@@ -532,7 +466,7 @@
           },
           {
             "result": {
-              "duration": 3229285207,
+              "duration": 3576468465,
               "status": "passed"
             },
             "line": 19,
@@ -544,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 62879195,
+              "duration": 56490857,
               "status": "passed"
             },
             "line": 20,
@@ -556,7 +490,7 @@
           },
           {
             "result": {
-              "duration": 44029507,
+              "duration": 45895319,
               "status": "passed"
             },
             "line": 21,
@@ -585,20 +519,14 @@
     "line": 1,
     "elements": [
       {
-        "comments": [
-          {
-            "line": 5,
-            "value": "#@ignore"
-          }
-        ],
-        "line": 7,
+        "line": 6,
         "name": "User navigating to the home page",
         "description": "",
         "id": "semiconductor-products;user-navigating-to-the-home-page",
         "after": [
           {
             "result": {
-              "duration": 30791,
+              "duration": 2228815447,
               "status": "passed"
             },
             "match": {
@@ -611,10 +539,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2555842368,
+              "duration": 2757649755,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I Navigate to the semiConductor Page on \"browser\"",
             "match": {
               "arguments": [
@@ -629,10 +557,10 @@
           },
           {
             "result": {
-              "duration": 5487380156,
+              "duration": 4301738025,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I click on order your here link",
             "match": {
               "location": "StepsDefinition.i_click_on_order_your_here_link()"
@@ -641,10 +569,10 @@
           },
           {
             "result": {
-              "duration": 132862145,
+              "duration": 157478180,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I click Add to basket button",
             "match": {
               "location": "StepsDefinition.i_click_Add_to_basket_button()"
@@ -653,10 +581,10 @@
           },
           {
             "result": {
-              "duration": 2964403823,
+              "duration": 6777946178,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "I click view basket button",
             "match": {
               "location": "StepsDefinition.i_click_view_basket_button()"
@@ -665,10 +593,10 @@
           },
           {
             "result": {
-              "duration": 141556342,
+              "duration": 88158153,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "I should be Redirected to Checkout Page",
             "match": {
               "location": "StepsDefinition.i_should_be_Redirected_to_Checkout_Page()"
@@ -678,7 +606,11 @@
         ],
         "tags": [
           {
-            "line": 6,
+            "line": 4,
+            "name": "@web"
+          },
+          {
+            "line": 5,
             "name": "@Semiconductor"
           }
         ]

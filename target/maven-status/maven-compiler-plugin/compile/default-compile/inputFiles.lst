@@ -1,5 +1,9 @@
-C:\Users\Solomon\workspace\RS\src\main\java\StepDef\Runner.java
-C:\Users\Solomon\workspace\RS\src\main\java\StepDef\StepsDefinition.java
+C:\Users\Solomon\workspace\RS\src\main\java\com\StepDef\BaseTest.java
+C:\Users\Solomon\workspace\RS\src\main\java\Pages\IndustriaPowerConnectorPage.java
+C:\Users\Solomon\workspace\RS\src\main\java\Pages\BasePage.java
 C:\Users\Solomon\workspace\RS\src\main\java\Pages\HomePage.java
 C:\Users\Solomon\workspace\RS\src\main\java\Pages\CableAndWirePage.java
-C:\Users\Solomon\workspace\RS\src\main\java\Base\TestBase.java
+C:\Users\Solomon\workspace\RS\src\main\java\Pages\CheckoutPage.java
+C:\Users\Solomon\workspace\RS\src\main\java\com\StepDef\StepsDefinition.java
+C:\Users\Solomon\workspace\RS\src\main\java\Pages\SemiConductorPage.java
+C:\Users\Solomon\workspace\RS\src\main\java\com\StepDef\Runner.java

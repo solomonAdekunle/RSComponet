@@ -56,32 +56,28 @@ formatter.match({
   "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
 });
 formatter.result({
-  "duration": 14263946961,
+  "duration": 18980298870,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_all_Product_menu()"
 });
 formatter.result({
-  "duration": 272159193,
+  "duration": 172093230,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_Cable_Wire_link()"
 });
 formatter.result({
-  "duration": 2845714547,
+  "duration": 4469858784,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_Should_see_Cable_wire_Page()"
 });
 formatter.result({
-  "duration": 150666220,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 78689,
+  "duration": 69114326,
   "status": "passed"
 });
 formatter.scenario({
@@ -134,32 +130,28 @@ formatter.match({
   "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
 });
 formatter.result({
-  "duration": 1409640424,
+  "duration": 1691085098,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_all_Product_menu()"
 });
 formatter.result({
-  "duration": 371500992,
+  "duration": 253477356,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_SemiConductor()"
 });
 formatter.result({
-  "duration": 3100384418,
+  "duration": 3023869039,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_Should_see_be_displayed_with_SemiConductor_Page()"
 });
 formatter.result({
-  "duration": 22368423,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 44048,
+  "duration": 29442644,
   "status": "passed"
 });
 formatter.uri("CableAndWire.feature");
@@ -215,25 +207,21 @@ formatter.match({
   "location": "StepsDefinition.i_Navigated_to_Cable_and_Wire_Page_on(String)"
 });
 formatter.result({
-  "duration": 1633961856,
+  "duration": 2439948289,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_Choose_your_own_Connector_link()"
 });
 formatter.result({
-  "duration": 2970037732,
+  "duration": 4272068298,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_should_Navigate_to_IndustrialPower_Connector_Page()"
 });
 formatter.result({
-  "duration": 43399573,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 32929,
+  "duration": 53493008,
   "status": "passed"
 });
 formatter.scenario({
@@ -275,25 +263,21 @@ formatter.match({
   "location": "StepsDefinition.i_am_on_Power_Industrial_Connector_Page()"
 });
 formatter.result({
-  "duration": 2013346642,
+  "duration": 2041751360,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_Add_button_on_PIC_Product_table()"
 });
 formatter.result({
-  "duration": 196224161,
+  "duration": 186271218,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_should_see_my_Product_added()"
 });
 formatter.result({
-  "duration": 125608284,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 30363,
+  "duration": 141886370,
   "status": "passed"
 });
 formatter.uri("SearchFliter.feature");
@@ -359,7 +343,7 @@ formatter.match({
   "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
 });
 formatter.result({
-  "duration": 1244992496,
+  "duration": 1822084270,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +356,7 @@ formatter.match({
   "location": "StepsDefinition.i_enter_Product_Number_as(String)"
 });
 formatter.result({
-  "duration": 307317881,
+  "duration": 298814588,
   "status": "passed"
 });
 formatter.match({
@@ -385,25 +369,21 @@ formatter.match({
   "location": "StepsDefinition.i_enter_Quantity_Amaoun_as(String)"
 });
 formatter.result({
-  "duration": 149080908,
+  "duration": 100146984,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_search_AddToBasket_button_Home_page()"
 });
 formatter.result({
-  "duration": 4252747140,
+  "duration": 8615943426,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_should_be_Redirected_to_Checkout_Page()"
 });
 formatter.result({
-  "duration": 135410960,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 35496,
+  "duration": 108195846,
   "status": "passed"
 });
 formatter.scenario({
@@ -466,7 +446,7 @@ formatter.match({
   "location": "StepsDefinition.i_Navigate_to_the_Home_Page_on(String)"
 });
 formatter.result({
-  "duration": 1727658199,
+  "duration": 1620520600,
   "status": "passed"
 });
 formatter.match({
@@ -479,7 +459,7 @@ formatter.match({
   "location": "StepsDefinition.i_enter_Product_Number_as(String)"
 });
 formatter.result({
-  "duration": 425409724,
+  "duration": 455049153,
   "status": "passed"
 });
 formatter.match({
@@ -492,32 +472,28 @@ formatter.match({
   "location": "StepsDefinition.i_enter_Quantity_Amaoun_as(String)"
 });
 formatter.result({
-  "duration": 99412361,
+  "duration": 136441489,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_search_AddToBasket_button_Home_page()"
 });
 formatter.result({
-  "duration": 3229285207,
+  "duration": 3576468465,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_should_be_see_errorMessage_displayed_on_Checkout_Page()"
 });
 formatter.result({
-  "duration": 62879195,
+  "duration": 56490857,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_should_see_CheckOut_Button_Disabled_on_CheckOut_Page()"
 });
 formatter.result({
-  "duration": 44029507,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 37634,
+  "duration": 45895319,
   "status": "passed"
 });
 formatter.uri("SemiConductor.feature");
@@ -529,13 +505,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "comments": [
-    {
-      "line": 5,
-      "value": "#@ignore"
-    }
-  ],
-  "line": 7,
+  "line": 6,
   "name": "User navigating to the home page",
   "description": "",
   "id": "semiconductor-products;user-navigating-to-the-home-page",
@@ -543,33 +513,37 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 6,
+      "line": 4,
+      "name": "@web"
+    },
+    {
+      "line": 5,
       "name": "@Semiconductor"
     }
   ]
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "I Navigate to the semiConductor Page on \"browser\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "I click on order your here link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "I click Add to basket button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "I click view basket button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "I should be Redirected to Checkout Page",
   "keyword": "Then "
 });
@@ -583,39 +557,39 @@ formatter.match({
   "location": "StepsDefinition.i_Navigate_to_the_semiConductor_Page_on(String)"
 });
 formatter.result({
-  "duration": 2555842368,
+  "duration": 2757649755,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_on_order_your_here_link()"
 });
 formatter.result({
-  "duration": 5487380156,
+  "duration": 4301738025,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_Add_to_basket_button()"
 });
 formatter.result({
-  "duration": 132862145,
+  "duration": 157478180,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_click_view_basket_button()"
 });
 formatter.result({
-  "duration": 2964403823,
+  "duration": 6777946178,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsDefinition.i_should_be_Redirected_to_Checkout_Page()"
 });
 formatter.result({
-  "duration": 141556342,
+  "duration": 88158153,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30791,
+  "duration": 2228815447,
   "status": "passed"
 });
 });

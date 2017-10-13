@@ -7,13 +7,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import StepDef.BaseTest;
+import com.StepDef.BaseTest;
 
 public class BasePage {
  //WebDriver driver;
 Properties OR = BaseTest.OR;
 protected WebDriver driver;
 
+   /* Initialised the webdriver in */
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
 
@@ -127,8 +128,7 @@ protected WebDriver driver;
 			return driver.findElement(By.cssSelector(OR.getProperty(Selector)));
 
 		} catch (Throwable t) {
-			// report error
-			//Utility.takeScreenShot(Selector);
+			
 
 			return null;
 		}

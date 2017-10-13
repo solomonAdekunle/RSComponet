@@ -1,0 +1,9 @@
+set projectLocation=%projectLocation\RS%
+
+set classpath=%projectLocation%\lib\*
+
+set execution=mvn integration-test
+
+%execution%
+
+pause

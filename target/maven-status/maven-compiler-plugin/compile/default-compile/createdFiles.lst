@@ -1,0 +1,9 @@
+com\StepDef\Runner.class
+Pages\CableAndWirePage.class
+Pages\IndustriaPowerConnectorPage.class
+Pages\CheckoutPage.class
+Pages\SemiConductorPage.class
+Pages\BasePage.class
+Pages\HomePage.class
+com\StepDef\BaseTest.class
+com\StepDef\StepsDefinition.class
